@@ -6,6 +6,73 @@
   height: 40vmin;
 }
 
+.Header {
+  font-size: 250%;
+  height: 30%;
+  width: 100%;
+  border-bottom: 10px double black;
+}
+
+.ValueSpace {
+  height: 60%;
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.Location {
+  position: absolute;
+  right: 1%;
+  top: 30%;
+  height: 30%;
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+
+.PrivateData {
+  position: absolute;
+  bottom: 1%;
+  height: 35%;
+  width: 50%;
+  left: 1%;
+  text-align: center;
+  vertical-align: auto;
+  border-right: 2px solid black;
+}
+
+.MainInfo {
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  width: 50%;
+  height: 30%;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.ButtonStyle {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  border-radius: 90px;
+  background-image: url("./images/dices.png");
+  height: 180px;
+  width: 180px;
+}
+
+:focus {
+  outline-width: 0 !important;
+}
+
+.qwerty {
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  height: 35%;
+  width: 50%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

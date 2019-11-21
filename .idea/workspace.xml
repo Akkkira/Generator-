@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca93bb94-26a1-459a-9061-2c29c1ffb8ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/address.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/alphabet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/dateBirth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/firstName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/lastName.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/phone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataBase/soc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainData/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainData/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/dices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/button.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/button1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/button2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/project of bar/TimetableForBarmens" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,12 +36,12 @@
     <property name="ts.external.directory.path" value="D:\проекты по react\generate\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\проекты по react\generate\src\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\проекты по react\generate\src\images" />
       <recent name="D:\проекты по react\generate\src\DataBase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\проекты по react\generate\src\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +85,9 @@
       <workItem from="1574308855411" duration="4371000" />
       <workItem from="1574314651097" duration="4940000" />
       <workItem from="1574320497349" duration="111000" />
-      <workItem from="1574320637532" duration="3582000" />
+      <workItem from="1574320637532" duration="4516000" />
+      <workItem from="1574331695541" duration="628000" />
+      <workItem from="1574342286938" duration="6075000" />
     </task>
     <servers />
   </component>

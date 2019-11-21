@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './App.css';
 import MainData from './components/MainData'
+const button = require("./images/button2.jpg")
 const names = require("./DataBase/firstName");
 const surnames = require("./DataBase/lastName");
 const address = require("./DataBase/address");
@@ -152,7 +153,7 @@ export default class App extends Component<{},StateType> {
               <MainData label={"Height"} value={this.state.height}/>
             </div>
             <div>
-            <button className="ButtonStyle" onClick={this.generator}/>
+            <img className="ButtonStyle" onClick={this.generator} src={button} alt={" "}/>
             </div>
           </div>
         </div>

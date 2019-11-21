@@ -14,11 +14,12 @@
 }
 
 .ValueSpace {
-  height: 60%;
-  width: 98%;
+  height: 675px;
+  width: 1670px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
+  background-image: url("./images/fon.jpg");
 }
 
 .Location {
@@ -53,13 +54,14 @@
 
 .ButtonStyle {
   position: absolute;
-  left: 45%;
+  left: 778px;
   top: 50%;
   border-radius: 90px;
-  background-image: url("./images/dices.png");
   height: 180px;
   width: 180px;
 }
+
+
 
 :focus {
   outline-width: 0 !important;

@@ -59,15 +59,55 @@
   border-radius: 90px;
   height: 180px;
   width: 180px;
+  transform: rotate(0);
+  background-image: url("./images/button2.jpg");
+
+
+}
+
+@-webkit-keyframes sq {
+  0% { -webkit-transform: perspective(120px) }
+
+  50% { -webkit-transform: perspective(300px)}
+
+  100% { -webkit-transform: perspective(120px)}
+}
+@keyframes sq {
+  0% {transform: perspective(120px) rotateX(0) rotateY(0);}
+  50% {transform: perspective(400px) rotateY(-180deg) rotateZ(360deg);}
+  100% {transform: perspective(800px) rotateY(-180deg) rotateZ(-179deg);}
+}
+
+@-webkit-keyframes rotatesquare {
+
+0% { -webkit-transform: perspective(120px) }
+
+50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+
+100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotatesquare {
+
+0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+
+50% { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+
+100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); }
+
 }
 
 
+.ButtonStyle:active{
+  -webkit-animation: sq 0.2s forwards ease-in-out;
+  animation: sq 0.8s forwards ease-in-out;
+}
 
 :focus {
   outline-width: 0 !important;
 }
 
-.qwerty {
+.PeopleParams {
   position: absolute;
   right: 1%;
   bottom: 1%;
